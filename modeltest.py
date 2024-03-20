@@ -11,12 +11,8 @@ model_path = './models'
 # 모델 불러오기
 model = tf.keras.models.load_model(model_path)
 
-# model.summary()
-
 img = cv2.imread('./data/dog_test2.jpg')
 resize = tf.image.resize(img, (256,256))
-# plt.imshow(resize.numpy().astype(int))
-# plt.show()
 
 yhat = model.predict(np.expand_dims(resize/255, 0))
 
