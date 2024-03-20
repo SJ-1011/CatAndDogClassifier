@@ -1,2 +1,3 @@
-data/Cat/*
-data/Dog/*
+models/*
+data/*
+assets/*
