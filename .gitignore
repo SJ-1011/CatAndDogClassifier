@@ -1,5 +1,5 @@
 models/*
 data/*
 assets/*
-./model.tflite
-./converterTFLite.py
+/model.tflite
+/converterTFLite.py
