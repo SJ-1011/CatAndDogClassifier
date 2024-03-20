@@ -1,2 +1,5 @@
-data/Cat/*
-data/Dog/*
+models/*
+data/*
+assets/*
+/model.tflite
+/converterTFLite.py
